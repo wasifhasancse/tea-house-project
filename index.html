@@ -22,7 +22,7 @@
 
 <body class="font-[Roboto]">
   <!-- hero section  -->
-  <section class="container mx-auto p-10 mt-20 flex items-center justify-between">
+  <section class="container mx-auto px-5 mt-20 flex items-center justify-between">
     <div class="space-y-8">
       <h1 class="text-8xl font-semibold w-[80%] ">It's good <br>
         tea time at The Tea House</h1>
@@ -34,10 +34,26 @@
       </div>
     </div>
 
-    <div>
-      <img src="./images/banner.png" alt="hero image">
+    <div class="relative flex items-end justify-center">
+      <img class="w-full" src="./images/banner.png" alt="hero image">
+      <div class="absolute flex items-center gap-4 bg-gray-50 py-5 px-8 rounded-lg -left-2 -bottom-2 shadow-lg ">
+        <img src="./images/rating.png" alt="rating image" >
+        <div>
+          <p class="text-3xl font-bold">5.00</p>
+          <p class="text-gray-600">Trust Pilot Ratings</p>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- Our Featured Products section  -->
+   <section class="container mx-auto px-5 m-9 border-t-2 border-red-600">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold">Our Featured Products</h2>
+      <p class="text-gray-600 mt-4 w-[65%] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+      by injected humour, or randomised words which don't look even slightly believable.</p>
+    </div>
+   </section>
 </body>
 
 </html>
